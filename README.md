@@ -6,4 +6,4 @@
   * counter ( all records length )
   * click (event handler),
     * when event fire you can get href attribute ex - event.target.getAttribute("href");
-  ### ex - if PER_PAGE is 20 first anchor tag's href will be ?str=0&end=20 and so on </b>
+  ### ex - if PER_PAGE is 20 first anchor tag's href will be "?str=0&end=20" and so on </b>
