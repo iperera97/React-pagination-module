@@ -15,7 +15,7 @@ function Pagination(props){
     var query = `?str=${str}&end=${end}`;
 
     paginationList.push(<li key={i}>
-                          <a data-str={str} href={query} onClick={props.click}>{paginationCounter++}</a>
+                          <a href={query} onClick={props.click}>{paginationCounter++}</a>
                         </li>)
   }
 
